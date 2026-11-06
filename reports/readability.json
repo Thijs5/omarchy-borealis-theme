@@ -1,0 +1,5981 @@
+{
+  "scope": "Opaque default surfaces; stock Omarchy templates plus Borealis overrides and actual Aether v3 highlights. Not a whole-desktop WCAG certification or arbitrary ANSI/opacity audit.",
+  "standard": "WCAG 2.2 contrast formula; normal text >=4.5, meaningful non-text indicators >=3",
+  "sources": [
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+  ],
+  "checks": [
+    {
+      "role": "Palette: foreground on background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: foreground on dark_background",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: foreground on darker_background",
+      "foreground": "#DFEDE5",
+      "background": "#08060F",
+      "ratio": 16.661703205514183,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: foreground on lighter_background",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: dark_foreground on background",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: dark_foreground on dark_background",
+      "foreground": "#9DBCB1",
+      "background": "#0D0A16",
+      "ratio": 9.571521442804475,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: dark_foreground on darker_background",
+      "foreground": "#9DBCB1",
+      "background": "#08060F",
+      "ratio": 9.836137362054686,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: dark_foreground on lighter_background",
+      "foreground": "#9DBCB1",
+      "background": "#2A2340",
+      "ratio": 7.262946245832771,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: light_foreground on background",
+      "foreground": "#ECF5EF",
+      "background": "#140F1F",
+      "ratio": 16.883991127335165,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: light_foreground on dark_background",
+      "foreground": "#ECF5EF",
+      "background": "#0D0A16",
+      "ratio": 17.604393180766085,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: light_foreground on darker_background",
+      "foreground": "#ECF5EF",
+      "background": "#08060F",
+      "ratio": 18.09108724630282,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: light_foreground on lighter_background",
+      "foreground": "#ECF5EF",
+      "background": "#2A2340",
+      "ratio": 13.358352914575502,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_foreground on background",
+      "foreground": "#FBFFFC",
+      "background": "#140F1F",
+      "ratio": 18.617272291901923,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_foreground on dark_background",
+      "foreground": "#FBFFFC",
+      "background": "#0D0A16",
+      "ratio": 19.41162956721788,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_foreground on darker_background",
+      "foreground": "#FBFFFC",
+      "background": "#08060F",
+      "ratio": 19.94828679906637,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_foreground on lighter_background",
+      "foreground": "#FBFFFC",
+      "background": "#2A2340",
+      "ratio": 14.72969819199532,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: muted on background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: muted on dark_background",
+      "foreground": "#9C96B2",
+      "background": "#0D0A16",
+      "ratio": 6.919959514356969,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: muted on darker_background",
+      "foreground": "#9C96B2",
+      "background": "#08060F",
+      "ratio": 7.111269898918913,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: muted on lighter_background",
+      "foreground": "#9C96B2",
+      "background": "#2A2340",
+      "ratio": 5.250920062859687,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: red on background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: red on dark_background",
+      "foreground": "#E56D87",
+      "background": "#0D0A16",
+      "ratio": 6.406879625913808,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: red on darker_background",
+      "foreground": "#E56D87",
+      "background": "#08060F",
+      "ratio": 6.584005316105009,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: red on lighter_background",
+      "foreground": "#E56D87",
+      "background": "#2A2340",
+      "ratio": 4.861590981600408,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: orange on background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: orange on dark_background",
+      "foreground": "#C4906B",
+      "background": "#0D0A16",
+      "ratio": 7.041000996280819,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: orange on darker_background",
+      "foreground": "#C4906B",
+      "background": "#08060F",
+      "ratio": 7.235657714359129,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: orange on lighter_background",
+      "foreground": "#C4906B",
+      "background": "#2A2340",
+      "ratio": 5.34276729759474,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: yellow on background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: yellow on dark_background",
+      "foreground": "#C5D98A",
+      "background": "#0D0A16",
+      "ratio": 12.746953007308106,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: yellow on darker_background",
+      "foreground": "#C5D98A",
+      "background": "#08060F",
+      "ratio": 13.099357450825682,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: yellow on lighter_background",
+      "foreground": "#C5D98A",
+      "background": "#2A2340",
+      "ratio": 9.672488855973237,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: green on background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: green on dark_background",
+      "foreground": "#59C98D",
+      "background": "#0D0A16",
+      "ratio": 9.48036707726782,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: green on darker_background",
+      "foreground": "#59C98D",
+      "background": "#08060F",
+      "ratio": 9.742462927334223,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: green on lighter_background",
+      "foreground": "#59C98D",
+      "background": "#2A2340",
+      "ratio": 7.193777591620183,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: cyan on background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: cyan on dark_background",
+      "foreground": "#3FA894",
+      "background": "#0D0A16",
+      "ratio": 6.7530331305246865,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: cyan on darker_background",
+      "foreground": "#3FA894",
+      "background": "#08060F",
+      "ratio": 6.939728639722368,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: cyan on lighter_background",
+      "foreground": "#3FA894",
+      "background": "#2A2340",
+      "ratio": 5.124255001298701,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: blue on background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: blue on dark_background",
+      "foreground": "#8194C8",
+      "background": "#0D0A16",
+      "ratio": 6.53233357743139,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: blue on darker_background",
+      "foreground": "#8194C8",
+      "background": "#08060F",
+      "ratio": 6.712927589028207,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: blue on lighter_background",
+      "foreground": "#8194C8",
+      "background": "#2A2340",
+      "ratio": 4.956786433195461,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: magenta on background",
+      "foreground": "#BE80D0",
+      "background": "#140F1F",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: magenta on dark_background",
+      "foreground": "#BE80D0",
+      "background": "#0D0A16",
+      "ratio": 6.704421845915919,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: magenta on darker_background",
+      "foreground": "#BE80D0",
+      "background": "#08060F",
+      "ratio": 6.889773439223159,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: magenta on lighter_background",
+      "foreground": "#BE80D0",
+      "background": "#2A2340",
+      "ratio": 5.087368373695754,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: brown on background",
+      "foreground": "#B7947B",
+      "background": "#140F1F",
+      "ratio": 6.740943373367652,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: brown on dark_background",
+      "foreground": "#B7947B",
+      "background": "#0D0A16",
+      "ratio": 7.0285643162840135,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: brown on darker_background",
+      "foreground": "#B7947B",
+      "background": "#08060F",
+      "ratio": 7.2228772077795345,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: brown on lighter_background",
+      "foreground": "#B7947B",
+      "background": "#2A2340",
+      "ratio": 5.33333024635548,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_red on background",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_red on dark_background",
+      "foreground": "#F08098",
+      "background": "#0D0A16",
+      "ratio": 7.69145158512593,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_red on darker_background",
+      "foreground": "#F08098",
+      "background": "#08060F",
+      "ratio": 7.904090771458907,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_red on lighter_background",
+      "foreground": "#F08098",
+      "background": "#2A2340",
+      "ratio": 5.836334353844067,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_yellow on background",
+      "foreground": "#DDEDA6",
+      "background": "#140F1F",
+      "ratio": 14.97391654457848,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_yellow on dark_background",
+      "foreground": "#DDEDA6",
+      "background": "#0D0A16",
+      "ratio": 15.612819997278892,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_yellow on darker_background",
+      "foreground": "#DDEDA6",
+      "background": "#08060F",
+      "ratio": 16.04445468987772,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_yellow on lighter_background",
+      "foreground": "#DDEDA6",
+      "background": "#2A2340",
+      "ratio": 11.84713141622285,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_green on background",
+      "foreground": "#8FE7AB",
+      "background": "#140F1F",
+      "ratio": 12.69063251225213,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_green on dark_background",
+      "foreground": "#8FE7AB",
+      "background": "#0D0A16",
+      "ratio": 13.23211335361328,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_green on darker_background",
+      "foreground": "#8FE7AB",
+      "background": "#08060F",
+      "ratio": 13.597930623063332,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_green on lighter_background",
+      "foreground": "#8FE7AB",
+      "background": "#2A2340",
+      "ratio": 10.040632367627078,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_cyan on background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_cyan on dark_background",
+      "foreground": "#6FD9C4",
+      "background": "#0D0A16",
+      "ratio": 11.564194699303108,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_cyan on darker_background",
+      "foreground": "#6FD9C4",
+      "background": "#08060F",
+      "ratio": 11.883900404297892,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_cyan on lighter_background",
+      "foreground": "#6FD9C4",
+      "background": "#2A2340",
+      "ratio": 8.775002488295472,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_blue on background",
+      "foreground": "#A2B4E3",
+      "background": "#140F1F",
+      "ratio": 9.10131095572998,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_blue on dark_background",
+      "foreground": "#A2B4E3",
+      "background": "#0D0A16",
+      "ratio": 9.48964349227142,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_blue on darker_background",
+      "foreground": "#A2B4E3",
+      "background": "#08060F",
+      "ratio": 9.751995799693969,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_blue on lighter_background",
+      "foreground": "#A2B4E3",
+      "background": "#2A2340",
+      "ratio": 7.200816608763672,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_magenta on background",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_magenta on dark_background",
+      "foreground": "#D08FE0",
+      "background": "#0D0A16",
+      "ratio": 8.10298017262434,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_magenta on darker_background",
+      "foreground": "#D08FE0",
+      "background": "#08060F",
+      "ratio": 8.32699654868931,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: bright_magenta on lighter_background",
+      "foreground": "#D08FE0",
+      "background": "#2A2340",
+      "ratio": 6.148605503993493,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: accent on background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: accent on dark_background",
+      "foreground": "#6FD9C4",
+      "background": "#0D0A16",
+      "ratio": 11.564194699303108,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: accent on darker_background",
+      "foreground": "#6FD9C4",
+      "background": "#08060F",
+      "ratio": 11.883900404297892,
+      "minimum": 4.5
+    },
+    {
+      "role": "Palette: accent on lighter_background",
+      "foreground": "#6FD9C4",
+      "background": "#2A2340",
+      "ratio": 8.775002488295472,
+      "minimum": 4.5
+    },
+    {
+      "role": "Selected text",
+      "foreground": "#FBFFFC",
+      "background": "#29483F",
+      "ratio": 9.943356702671526,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: foreground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: disabledForeground on editor.background",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: descriptionForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: errorForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: icon.foreground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: textLink.activeForeground on editor.background",
+      "foreground": "#A2B4E3",
+      "background": "#140F1F",
+      "ratio": 9.10131095572998,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: textLink.foreground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: textPreformat.foreground on textPreformat.background",
+      "foreground": "#DFEDE5",
+      "background": "#363144",
+      "ratio": 10.348999773092265,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: textSeparator.foreground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: button.foreground on button.background",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: button.secondaryForeground on button.secondaryBackground",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: checkbox.foreground on checkbox.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: dropdown.foreground on dropdown.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: input.foreground on input.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: input.placeholderForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: inputOption.activeForeground on inputOption.activeBackground",
+      "foreground": "#DFEDE5",
+      "background": "#2B4248",
+      "ratio": 8.7987820999219,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: inputValidation.errorForeground on inputValidation.errorBackground",
+      "foreground": "#E56D87",
+      "background": "#2E1B2C",
+      "ratio": 5.24620200535471,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: inputValidation.infoForeground on inputValidation.infoBackground",
+      "foreground": "#8194C8",
+      "background": "#222034",
+      "ratio": 5.28875764610183,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: inputValidation.warningForeground on inputValidation.warningBackground",
+      "foreground": "#C5D98A",
+      "background": "#2A282C",
+      "ratio": 9.50140533268824,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: badge.foreground on badge.background",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.activeSelectionForeground on list.activeSelectionBackground",
+      "foreground": "#FBFFFC",
+      "background": "#25353E",
+      "ratio": 12.556229084972658,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.activeSelectionIconForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.focusForeground on list.focusBackground",
+      "foreground": "#DFEDE5",
+      "background": "#1F2834",
+      "ratio": 12.316234629939398,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.highlightForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.hoverForeground on list.hoverBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.inactiveSelectionForeground on list.inactiveSelectionBackground",
+      "foreground": "#DFEDE5",
+      "background": "#363144",
+      "ratio": 10.348999773092265,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.invalidItemForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.errorForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: list.warningForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: activityBar.foreground on activityBar.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: activityBar.inactiveForeground on activityBar.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: activityBarBadge.foreground on activityBarBadge.background",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: sideBar.foreground on sideBar.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: sideBarTitle.foreground on sideBar.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: sideBarSectionHeader.foreground on sideBarSectionHeader.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorGroup.dropIntoPromptForeground on editorGroup.dropIntoPromptBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: tab.activeForeground on tab.activeBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: tab.inactiveForeground on tab.inactiveBackground",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: tab.unfocusedActiveForeground on tab.unfocusedActiveBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: tab.unfocusedInactiveForeground on tab.inactiveBackground",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: tab.hoverForeground on tab.hoverBackground",
+      "foreground": "#DFEDE5",
+      "background": "#363144",
+      "ratio": 10.348999773092265,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editor.foreground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLineNumber.foreground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLineNumber.activeForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLineNumber.dimmedForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorCursor.foreground on editorCursor.background",
+      "foreground": "#FBFFFC",
+      "background": "#140F1F",
+      "ratio": 18.617272291901923,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editor.selectionForeground on editor.selectionBackground",
+      "foreground": "#FBFFFC",
+      "background": "#1C242B",
+      "ratio": 15.570368464594255,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLink.activeForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorWhitespace.foreground on editor.background",
+      "foreground": "#69647B",
+      "background": "#140F1F",
+      "ratio": 3.3184233634898974,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorInlayHint.foreground on editorInlayHint.background",
+      "foreground": "#9DBCB1",
+      "background": "#2E283B",
+      "ratio": 6.920357330569639,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorInlayHint.typeForeground on editorInlayHint.typeBackground",
+      "foreground": "#C5D98A",
+      "background": "#232028",
+      "ratio": 10.442497681763477,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorInlayHint.parameterForeground on editorInlayHint.parameterBackground",
+      "foreground": "#D08FE0",
+      "background": "#231A2F",
+      "ratio": 6.893227347559252,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorRuler.foreground on editor.background",
+      "foreground": "#69647B",
+      "background": "#140F1F",
+      "ratio": 3.3184233634898974,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorCodeLens.foreground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLightBulb.foreground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLightBulbAutoFix.foreground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorLightBulbAi.foreground on editor.background",
+      "foreground": "#BE80D0",
+      "background": "#140F1F",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorBracketHighlight.unexpectedBracket.foreground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.findMatchForeground on editor.background",
+      "foreground": "#6D7455",
+      "background": "#140F1F",
+      "ratio": 3.8283635913656044,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.rangeHighlightForeground on editor.background",
+      "foreground": "#427472",
+      "background": "#140F1F",
+      "ratio": 3.5539228516351375,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.selectionHighlightForeground on editor.background",
+      "foreground": "#427472",
+      "background": "#140F1F",
+      "ratio": 3.5539228516351375,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.wordHighlightForeground on editor.background",
+      "foreground": "#427472",
+      "background": "#140F1F",
+      "ratio": 3.5539228516351375,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.wordHighlightStrongForeground on editor.background",
+      "foreground": "#427472",
+      "background": "#140F1F",
+      "ratio": 3.5539228516351375,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.wordHighlightTextForeground on editor.background",
+      "foreground": "#427472",
+      "background": "#140F1F",
+      "ratio": 3.5539228516351375,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.modifiedForeground on editor.background",
+      "foreground": "#8D6853",
+      "background": "#140F1F",
+      "ratio": 3.790794148758937,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.addedForeground on editor.background",
+      "foreground": "#376C56",
+      "background": "#140F1F",
+      "ratio": 3.0789611158911425,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.deletedForeground on editor.background",
+      "foreground": "#A45067",
+      "background": "#140F1F",
+      "ratio": 3.508330233990513,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.errorForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.warningForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.infoForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.bracketMatchForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorError.foreground on editorError.background",
+      "foreground": "#E56D87",
+      "background": "#251728",
+      "ratio": 5.576041981798468,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorWarning.foreground on editorWarning.background",
+      "foreground": "#C5D98A",
+      "background": "#232028",
+      "ratio": 10.442497681763477,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorInfo.foreground on editorInfo.background",
+      "foreground": "#8194C8",
+      "background": "#1D1A2D",
+      "ratio": 5.657530627178805,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorHint.foreground on editor.background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: problemsErrorIcon.foreground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: problemsWarningIcon.foreground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: problemsInfoIcon.foreground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorGutter.commentRangeForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorGutter.commentGlyphForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorGutter.commentUnresolvedGlyphForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorGutter.foldingControlForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: diffEditorOverview.insertedForeground on editor.background",
+      "foreground": "#376C56",
+      "background": "#140F1F",
+      "ratio": 3.0789611158911425,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: diffEditorOverview.removedForeground on editor.background",
+      "foreground": "#A45067",
+      "background": "#140F1F",
+      "ratio": 3.508330233990513,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: diffEditor.unchangedRegionForeground on diffEditor.unchangedRegionBackground",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorWidget.foreground on editorWidget.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorSuggestWidget.foreground on editorSuggestWidget.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorSuggestWidget.focusHighlightForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorSuggestWidget.highlightForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorSuggestWidget.selectedForeground on editorSuggestWidget.selectedBackground",
+      "foreground": "#DFEDE5",
+      "background": "#25353E",
+      "ratio": 10.48752529485644,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorSuggestWidget.selectedIconForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorSuggestWidgetStatus.foreground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorHoverWidget.foreground on editorHoverWidget.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorHoverWidget.highlightForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorGhostText.foreground on editorGhostText.background",
+      "foreground": "#9C96B2",
+      "background": "#1D1728",
+      "ratio": 6.154588908402147,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: peekViewResult.fileForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: peekViewResult.lineForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: peekViewResult.selectionForeground on peekViewResult.selectionBackground",
+      "foreground": "#DFEDE5",
+      "background": "#25353E",
+      "ratio": 10.48752529485644,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: peekViewTitleDescription.foreground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: peekViewTitleLabel.foreground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.currentContentForeground on editor.background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.incomingContentForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: editorOverviewRuler.commonContentForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: panelTitle.activeForeground on panel.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: panelTitle.inactiveForeground on panel.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: panelSectionHeader.foreground on panelSectionHeader.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBar.foreground on statusBar.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBar.debuggingForeground on statusBar.debuggingBackground",
+      "foreground": "#140F1F",
+      "background": "#C5D98A",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBar.noFolderForeground on statusBar.noFolderBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.hoverForeground on statusBarItem.hoverBackground",
+      "foreground": "#DFEDE5",
+      "background": "#474256",
+      "ratio": 7.967934016219806,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.prominentForeground on statusBarItem.prominentBackground",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.prominentHoverForeground on statusBarItem.prominentHoverBackground",
+      "foreground": "#FBFFFC",
+      "background": "#427472",
+      "ratio": 5.238513346832004,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.remoteForeground on statusBarItem.remoteBackground",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.remoteHoverForeground on statusBarItem.remoteHoverBackground",
+      "foreground": "#FBFFFC",
+      "background": "#427472",
+      "ratio": 5.238513346832004,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.errorForeground on statusBarItem.errorBackground",
+      "foreground": "#140F1F",
+      "background": "#E56D87",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.errorHoverForeground on statusBarItem.errorHoverBackground",
+      "foreground": "#FBFFFC",
+      "background": "#7D3E53",
+      "ratio": 7.7482795324105815,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.warningForeground on statusBarItem.warningBackground",
+      "foreground": "#140F1F",
+      "background": "#C5D98A",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: statusBarItem.warningHoverForeground on statusBarItem.warningHoverBackground",
+      "foreground": "#FBFFFC",
+      "background": "#6D7455",
+      "ratio": 4.862984365928789,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: titleBar.activeForeground on titleBar.activeBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: titleBar.inactiveForeground on titleBar.inactiveBackground",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: menubar.selectionForeground on menubar.selectionBackground",
+      "foreground": "#DFEDE5",
+      "background": "#25353E",
+      "ratio": 10.48752529485644,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: menu.foreground on menu.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: menu.selectionForeground on menu.selectionBackground",
+      "foreground": "#DFEDE5",
+      "background": "#25353E",
+      "ratio": 10.48752529485644,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: commandCenter.foreground on commandCenter.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: commandCenter.activeForeground on commandCenter.activeBackground",
+      "foreground": "#DFEDE5",
+      "background": "#29483F",
+      "ratio": 8.30513717369589,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: commandCenter.inactiveForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notificationCenterHeader.foreground on notificationCenterHeader.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notifications.foreground on notifications.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notificationLink.foreground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notificationsErrorIcon.foreground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notificationsWarningIcon.foreground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notificationsInfoIcon.foreground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: banner.foreground on banner.background",
+      "foreground": "#DFEDE5",
+      "background": "#1F2834",
+      "ratio": 12.316234629939398,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: banner.iconForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionButton.prominentForeground on extensionButton.prominentBackground",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionButton.foreground on extensionButton.background",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionBadge.remoteForeground on extensionBadge.remoteBackground",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionIcon.starForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionIcon.verifiedForeground on editor.background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionIcon.preReleaseForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: extensionIcon.sponsorForeground on editor.background",
+      "foreground": "#BE80D0",
+      "background": "#140F1F",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: pickerGroup.foreground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: quickInput.foreground on quickInput.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: quickInputList.focusForeground on quickInputList.focusBackground",
+      "foreground": "#DFEDE5",
+      "background": "#25353E",
+      "ratio": 10.48752529485644,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: quickInputList.focusIconForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: keybindingLabel.foreground on keybindingLabel.background",
+      "foreground": "#DFEDE5",
+      "background": "#363144",
+      "ratio": 10.348999773092265,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: terminal.foreground on terminal.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: terminal.selectionForeground on terminal.selectionBackground",
+      "foreground": "#FBFFFC",
+      "background": "#1C242B",
+      "ratio": 15.570368464594255,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: terminalCursor.foreground on terminalCursor.background",
+      "foreground": "#FBFFFC",
+      "background": "#140F1F",
+      "ratio": 18.617272291901923,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: terminalOverviewRuler.cursorForeground on terminal.background",
+      "foreground": "#FBFFFC",
+      "background": "#140F1F",
+      "ratio": 18.617272291901923,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: terminalOverviewRuler.findMatchForeground on terminal.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: debugView.stateLabelForeground on debugView.stateLabelBackground",
+      "foreground": "#DFEDE5",
+      "background": "#25353E",
+      "ratio": 10.48752529485644,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugView.exceptionLabelForeground on debugView.exceptionLabelBackground",
+      "foreground": "#140F1F",
+      "background": "#E56D87",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: testing.message.error.decorationForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: testing.message.info.decorationForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: welcomePage.progress.foreground on welcomePage.progress.background",
+      "foreground": "#6FD9C4",
+      "background": "#2A2340",
+      "ratio": 8.775002488295472,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: walkthrough.stepTitle.foreground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.addedResourceForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.modifiedResourceForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.deletedResourceForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.renamedResourceForeground on editor.background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.stageModifiedResourceForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.stageDeletedResourceForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.untrackedResourceForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.ignoredResourceForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.conflictingResourceForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: gitDecoration.submoduleResourceForeground on editor.background",
+      "foreground": "#BE80D0",
+      "background": "#140F1F",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: settings.headerForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: settings.dropdownForeground on settings.dropdownBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: settings.checkboxForeground on settings.checkboxBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: settings.textInputForeground on settings.textInputBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: settings.numberInputForeground on settings.numberInputBackground",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: settings.settingsHeaderHoverForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: breadcrumb.foreground on breadcrumb.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: breadcrumb.focusForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: breadcrumb.activeSelectionForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.arrayForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.booleanForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.classForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.colorForeground on editor.background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.constantForeground on editor.background",
+      "foreground": "#DDEDA6",
+      "background": "#140F1F",
+      "ratio": 14.97391654457848,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.constructorForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.enumeratorForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.enumeratorMemberForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.eventForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.fieldForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.fileForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.folderForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.functionForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.interfaceForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.keyForeground on editor.background",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.keywordForeground on editor.background",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.methodForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.moduleForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.namespaceForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.nullForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.numberForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.objectForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.operatorForeground on editor.background",
+      "foreground": "#A2B4E3",
+      "background": "#140F1F",
+      "ratio": 9.10131095572998,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.packageForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.propertyForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.referenceForeground on editor.background",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.snippetForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.stringForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.structForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.textForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.typeParameterForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.unitForeground on editor.background",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: symbolIcon.variableForeground on editor.background",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.breakpointForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.breakpointDisabledForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.breakpointUnverifiedForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.breakpointCurrentStackframeForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.breakpointStackframeForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.startForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.pauseForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.stopForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.disconnectForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.restartForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.stepOverForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.stepIntoForeground on editor.background",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.stepOutForeground on editor.background",
+      "foreground": "#BE80D0",
+      "background": "#140F1F",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.continueForeground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugIcon.stepBackForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugConsole.infoForeground on editor.background",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugConsole.warningForeground on editor.background",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugConsole.errorForeground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugConsole.sourceForeground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: debugConsoleInputIcon.foreground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notebookStatusErrorIcon.foreground on editor.background",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notebookStatusRunningIcon.foreground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notebookStatusSuccessIcon.foreground on editor.background",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: notebookEditorOverviewRuler.runningCellForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 3.0
+    },
+    {
+      "role": "VS Code: charts.foreground on editor.background",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: ports.iconRunningProcessForeground on editor.background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: editorWatermark.foreground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code: inlineChatInput.placeholderForeground on editor.background",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code hover: button.foreground",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code hover: button.secondaryForeground",
+      "foreground": "#DFEDE5",
+      "background": "#29483F",
+      "ratio": 8.30513717369589,
+      "minimum": 4.5
+    },
+    {
+      "role": "VS Code hover: extensionButton.foreground",
+      "foreground": "#DFEDE5",
+      "background": "#29483F",
+      "ratio": 8.30513717369589,
+      "minimum": 4.5
+    },
+    {
+      "role": "Obsidian tags",
+      "foreground": "#6FD9C4",
+      "background": "#29483F",
+      "ratio": 5.923609477305428,
+      "minimum": 4.5
+    },
+    {
+      "role": "Obsidian accent buttons",
+      "foreground": "#140F1F",
+      "background": "#6FD9C4",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Obsidian muted text",
+      "foreground": "#A2ABAA",
+      "background": "#140F1F",
+      "ratio": 7.999121227720137,
+      "minimum": 4.5
+    },
+    {
+      "role": "Obsidian faint text",
+      "foreground": "#8E9496",
+      "background": "#140F1F",
+      "ratio": 6.1067764517163035,
+      "minimum": 4.5
+    },
+    {
+      "role": "Keyboard focus indicator on background",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 3
+    },
+    {
+      "role": "Keyboard focus indicator on lighter_background",
+      "foreground": "#6FD9C4",
+      "background": "#2A2340",
+      "ratio": 8.775002488295472,
+      "minimum": 3
+    },
+    {
+      "role": "Keyboard focus indicator on selection",
+      "foreground": "#6FD9C4",
+      "background": "#29483F",
+      "ratio": 5.923609477305428,
+      "minimum": 3
+    },
+    {
+      "role": "Shell normal fill text",
+      "foreground": "#DFEDE5",
+      "background": "#1C1827",
+      "ratio": 14.373878613421306,
+      "minimum": 4.5
+    },
+    {
+      "role": "Shell normal fill focus outline",
+      "foreground": "#6FD9C4",
+      "background": "#1C1827",
+      "ratio": 10.252117671189476,
+      "minimum": 3
+    },
+    {
+      "role": "Shell hover fill text",
+      "foreground": "#DFEDE5",
+      "background": "#24202F",
+      "ratio": 13.142172328539033,
+      "minimum": 4.5
+    },
+    {
+      "role": "Shell hover fill focus outline",
+      "foreground": "#6FD9C4",
+      "background": "#24202F",
+      "ratio": 9.373607555126165,
+      "minimum": 3
+    },
+    {
+      "role": "Shell selected fill text",
+      "foreground": "#DFEDE5",
+      "background": "#393743",
+      "ratio": 9.649033665314697,
+      "minimum": 4.5
+    },
+    {
+      "role": "Shell selected fill focus outline",
+      "foreground": "#6FD9C4",
+      "background": "#393743",
+      "ratio": 6.882138858311192,
+      "minimum": 3
+    },
+    {
+      "role": "Lock error text",
+      "foreground": "#E56D87",
+      "background": "#140F1F",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.link",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.link.url",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.link.label",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.raw",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.raw.block",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.list",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.list.checked",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.list.unchecked",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.quote",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.math",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitOverflow",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitSummary",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitComment",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitUntracked",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitDiscarded",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitSelected",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitHeader",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitSelectedType",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitUnmergedType",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitDiscardedType",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitBranch",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitUntrackedFile",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitUnmergedFile",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitDiscardedFile",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: gitcommitSelectedFile",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Normal",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpMenu",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpMenuBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpLabel",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpLabelDeprecated",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpLabelMatch",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpLabelDescription",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpLabelDetail",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKind",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindClass",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindColor",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindConstant",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindConstructor",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindEnum",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindEnumMember",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindEvent",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindField",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindFile",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindFolder",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindFunction",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindInterface",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindKeyword",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindMethod",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindModule",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindOperator",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindProperty",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindReference",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewSecondary",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewFilePanelTitle",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewFilePanelCounter",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewFilePanelFileName",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewFilePanelPath",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewFilePanelInsertions",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewFilePanelDeletions",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusAdded",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusUntracked",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusModified",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusRenamed",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusCopied",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusTypeChange",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusUnmerged",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusUnknown",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusDeleted",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewStatusBroken",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @function.builtin",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @function.method.call",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniJump",
+      "foreground": "#140F1F",
+      "background": "#BE80D0",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniJump2dSpot",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterFooter",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.directive.define",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterInactive",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterItem",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterItemBullet",
+      "foreground": "#6B79A6",
+      "background": "#140F1F",
+      "ratio": 4.392986862463587,
+      "minimum": 3
+    },
+    {
+      "role": "Neovim: MiniStarterItemPrefix",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterSection",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterQuery",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineDevinfo",
+      "foreground": "#9DBCB1",
+      "background": "#2A2340",
+      "ratio": 7.262946245832771,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineFileinfo",
+      "foreground": "#9DBCB1",
+      "background": "#2A2340",
+      "ratio": 7.262946245832771,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineFilename",
+      "foreground": "#140F1F",
+      "background": "#9C96B2",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineInactive",
+      "foreground": "#8194C8",
+      "background": "#0D0A16",
+      "ratio": 6.53233357743139,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineModeCommand",
+      "foreground": "#140F1F",
+      "background": "#C5D98A",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineModeInsert",
+      "foreground": "#140F1F",
+      "background": "#59C98D",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineModeNormal",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineModeOther",
+      "foreground": "#140F1F",
+      "background": "#3FA894",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.link.label.symbol",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.list.markdown",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.raw.markdown_inline",
+      "foreground": "#8194C8",
+      "background": "#2A2340",
+      "ratio": 4.956786433195461,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @module",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineHidden",
+      "foreground": "#9DBCB1",
+      "background": "#0D0A16",
+      "ratio": 9.571521442804475,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineModifiedCurrent",
+      "foreground": "#C5D98A",
+      "background": "#2A2340",
+      "ratio": 9.672488855973237,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineModifiedHidden",
+      "foreground": "#9DBCB1",
+      "background": "#0D0A16",
+      "ratio": 9.571521442804475,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineModifiedVisible",
+      "foreground": "#C5D98A",
+      "background": "#0D0A16",
+      "ratio": 12.746953007308106,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineTabpagesection",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapBreakpoint",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapBreakpointCondition",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTestFail",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapLogPoint",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIBreakpointsCurrentLine",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIBreakpointsDisabledLine",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIBreakpointsInfo",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIBreakpointsPath",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIDecoration",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIFloatBorder",
+      "foreground": "#6B79A6",
+      "background": "#140F1F",
+      "ratio": 4.392986862463587,
+      "minimum": 3
+    },
+    {
+      "role": "Neovim: DapUILineNumber",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIModifiedValue",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIPlayPause",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIRestart",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIScope",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUISource",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIStepBack",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIStepInto",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIStepOut",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIStepOver",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIStop",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIStoppedThread",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeDimText",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeFileName",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitModified",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitStaged",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitUntracked",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIWatchesError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIWatchesValue",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitIgnored",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitAdded",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitDeleted",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitRenamed",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeNormalNC",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeTabActive",
+      "foreground": "#8194C8",
+      "background": "#0D0A16",
+      "ratio": 6.53233357743139,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeTabInactive",
+      "foreground": "#9C96B2",
+      "background": "#0E0B18",
+      "ratio": 6.871150405163777,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeTabSeparatorActive",
+      "foreground": "#8194C8",
+      "background": "#0D0A16",
+      "ratio": 6.53233357743139,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeTabSeparatorInactive",
+      "foreground": "#DFEDE5",
+      "background": "#0E0B18",
+      "ratio": 16.099103304838973,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeDirectoryIcon",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiffviewPrimary",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeSymbolicLinkTarget",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeRootName",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeFileNameOpened",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FlashBackdrop",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FlashCurrent",
+      "foreground": "#140F1F",
+      "background": "#C4906B",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FlashLabel",
+      "foreground": "#140F1F",
+      "background": "#BE80D0",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FlashMatch",
+      "foreground": "#3FA894",
+      "background": "#2A2340",
+      "ratio": 5.124255001298701,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FlashPrompt",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindDefault",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindKeyword",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindVariable",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindConstant",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindReference",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindValue",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindFunction",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindMethod",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindConstructor",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindClass",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindInterface",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindStruct",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindEvent",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindEnum",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindUnit",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindModule",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindProperty",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindField",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindTypeParameter",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindEnumMember",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindOperator",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCompletionItemKindSnippet",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCmdlineIcon",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCmdlineIconSearch",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCmdlinePopupBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceCmdlinePopupBorderSearch",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NoiceConfirmBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CommentNormal",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CommentBold",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CommentItalic",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CommentURL",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: GitSignsAdd",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: GitSignsChange",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: GitSignsDelete",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHeader",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHeaderSecondary",
+      "foreground": "#140F1F",
+      "background": "#BE80D0",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHighlight",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHighlightBlock",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHighlightBlockBold",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHighlightSecondary",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHighlightBlockSecondary",
+      "foreground": "#140F1F",
+      "background": "#BE80D0",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHighlightBlockBoldSecondary",
+      "foreground": "#140F1F",
+      "background": "#BE80D0",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonMuted",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonMutedBlock",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonMutedBlockBold",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonWarning",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MasonHeading",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: ConformProgress",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: ConformDone",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: ConformError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksWinBar",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNormalNC",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksWinBarNC",
+      "foreground": "#9DBCB1",
+      "background": "#0D0A16",
+      "ratio": 9.571521442804475,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierInfo",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierWarn",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierDebug",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierTrace",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierIconInfo",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierIconWarn",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierIconError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierIconDebug",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierIconTrace",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierTitleInfo",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierTitleWarn",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierTitleError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierTitleDebug",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierTitleTrace",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierBorderInfo",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierBorderWarn",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierBorderError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierBorderDebug",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SnacksNotifierBorderTrace",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeSelection",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeSelectionCaret",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeMultiSelection",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeMatching",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePromptBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePromptTitle",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePromptPrefix",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePreviewNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePreviewBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePreviewTitle",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopePreviewMatch",
+      "foreground": "#3FA894",
+      "background": "#2A2340",
+      "ratio": 5.124255001298701,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeResultsNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeResultsBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeResultsTitle",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TelescopeResultsDirectory",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleText",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleCount",
+      "foreground": "#140F1F",
+      "background": "#9C96B2",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleTextInformation",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleSignWarning",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleSignInformation",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleSignHint",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleSignError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleSignOther",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleIndent",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleLocation",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleFoldIcon",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleFile",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TroubleCode",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WhichKey",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WhichKeyGroup",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WhichKeyDesc",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WhichKeySeparator",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WhichKeyBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WhichKeyValue",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeFolderIcon",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitDeleted",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitDirty",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitNew",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitStaged",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitMerge",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitRenamed",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeGitIgnored",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeImageFile",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeIndentMarker",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeNormal",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeNormalNC",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeRootFolder",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeSpecialFile",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeSymlink",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NvimTreeWinSeparator",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LintError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LintWarning",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LintInfo",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LintHint",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @module.builtin",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @namespace.builtin",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @variable.builtin",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @number",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @number.float",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @punctuation.bracket",
+      "foreground": "#7A7E82",
+      "background": "#140F1F",
+      "ratio": 4.592881698523463,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @punctuation.delimiter",
+      "foreground": "#7A7E82",
+      "background": "#140F1F",
+      "ratio": 4.592881698523463,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @punctuation.special",
+      "foreground": "#A2B4E3",
+      "background": "#140F1F",
+      "ratio": 9.10131095572998,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @punctuation.special.markdown",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @string",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @string.documentation",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @string.escape",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @string.regexp",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @tag",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @tag.attribute",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @tag.delimiter",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @tag.tsx",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @tag.javascript",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @type",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @type.builtin",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @type.definition",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @type.qualifier",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @variable",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @variable.member",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @variable.parameter",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @variable.parameter.builtin",
+      "foreground": "#CADD9C",
+      "background": "#140F1F",
+      "ratio": 12.822673693244537,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticWarn",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticInfo",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticHint",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticUnnecessary",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticVirtualTextError",
+      "foreground": "#F08098",
+      "background": "#291829",
+      "ratio": 6.560389649814518,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticVirtualTextWarn",
+      "foreground": "#C5D98A",
+      "background": "#26232A",
+      "ratio": 10.076387281305747,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticVirtualTextInfo",
+      "foreground": "#A2B4E3",
+      "background": "#1F1C30",
+      "ratio": 8.029712420651611,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DiagnosticVirtualTextHint",
+      "foreground": "#3FA894",
+      "background": "#181E2B",
+      "ratio": 5.748650847668514,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.class",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.decorator",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.enum",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.enumMember",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.function",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.interface",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.macro",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.method",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.namespace",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.parameter",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.property",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.struct",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.type",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.typeParameter",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @lsp.type.variable",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspReferenceText",
+      "foreground": "#DFEDE5",
+      "background": "#29483F",
+      "ratio": 8.30513717369589,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspReferenceRead",
+      "foreground": "#DFEDE5",
+      "background": "#29483F",
+      "ratio": 8.30513717369589,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspReferenceWrite",
+      "foreground": "#C5D98A",
+      "background": "#29483F",
+      "ratio": 6.529462154888101,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspSignatureActiveParameter",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspCodeLens",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspInlayHint",
+      "foreground": "#9C96B2",
+      "background": "#221D2E",
+      "ratio": 5.781573204755394,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading.1.markdown",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading.2.markdown",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Comment",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Conceal",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Cursor",
+      "foreground": "#140F1F",
+      "background": "#DFEDE5",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: lCursor",
+      "foreground": "#140F1F",
+      "background": "#DFEDE5",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CursorIM",
+      "foreground": "#140F1F",
+      "background": "#DFEDE5",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Directory",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: ErrorMsg",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: VertSplit",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WinSeparator",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Folded",
+      "foreground": "#A2B4E3",
+      "background": "#282533",
+      "ratio": 7.253387078132671,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FoldColumn",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SignColumn",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SignColumnSB",
+      "foreground": "#9C96B2",
+      "background": "#0D0A16",
+      "ratio": 6.919959514356969,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Substitute",
+      "foreground": "#140F1F",
+      "background": "#E56D87",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LineNr",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CursorLineNr",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LineNrAbove",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LineNrBelow",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MatchParen",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: ModeMsg",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MsgArea",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MoreMsg",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NonText",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NormalNC",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NormalSB",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NormalFloat",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FloatBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FloatTitle",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Pmenu",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: PmenuMatch",
+      "foreground": "#8194C8",
+      "background": "#0D0A16",
+      "ratio": 6.53233357743139,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Question",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Search",
+      "foreground": "#DFEDE5",
+      "background": "#404463",
+      "ratio": 7.812388594793348,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: IncSearch",
+      "foreground": "#140F1F",
+      "background": "#C4906B",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: CurSearch",
+      "foreground": "#140F1F",
+      "background": "#C4906B",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SpecialKey",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: StatusLine",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: StatusLineNC",
+      "foreground": "#9C96B2",
+      "background": "#0D0A16",
+      "ratio": 6.919959514356969,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TabLine",
+      "foreground": "#9C96B2",
+      "background": "#0D0A16",
+      "ratio": 6.919959514356969,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: TabLineSel",
+      "foreground": "#140F1F",
+      "background": "#8194C8",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Title",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Whitespace",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WinBar",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WinBarNC",
+      "foreground": "#9C96B2",
+      "background": "#0D0A16",
+      "ratio": 6.919959514356969,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Constant",
+      "foreground": "#DDEDA6",
+      "background": "#140F1F",
+      "ratio": 14.97391654457848,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: String",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Character",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Number",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Boolean",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Float",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Identifier",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Function",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Statement",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Conditional",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Repeat",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Label",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Operator",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Keyword",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Exception",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: PreProc",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Include",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Define",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Macro",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: PreCondit",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Type",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @function",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Structure",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Typedef",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Special",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SpecialChar",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Tag",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Delimiter",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: SpecialComment",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Debug",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Ignore",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Error",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Todo",
+      "foreground": "#140F1F",
+      "background": "#C5D98A",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: debugBreakpoint",
+      "foreground": "#8194C8",
+      "background": "#1F1C30",
+      "ratio": 5.52736887378953,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: dosIniLabel",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @property",
+      "foreground": "#6FD9C4",
+      "background": "#140F1F",
+      "ratio": 11.090967958562342,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: helpCommand",
+      "foreground": "#8194C8",
+      "background": "#282533",
+      "ratio": 4.99297407739096,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: htmlH1",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: htmlH2",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: qfFileName",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: qfLineNr",
+      "foreground": "#9DBCB1",
+      "background": "#140F1F",
+      "ratio": 9.179838319674277,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: LspInfoBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: healthError",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: healthSuccess",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: healthWarning",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffAdded",
+      "foreground": "#8FE7AB",
+      "background": "#253E3B",
+      "ratio": 7.748435794191108,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffRemoved",
+      "foreground": "#F08098",
+      "background": "#482739",
+      "ratio": 5.075058859714947,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffChanged",
+      "foreground": "#C4906B",
+      "background": "#171824",
+      "ratio": 6.329880218243027,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffOldFile",
+      "foreground": "#DFEDE5",
+      "background": "#482739",
+      "ratio": 10.698146936320937,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffNewFile",
+      "foreground": "#DFEDE5",
+      "background": "#253E3B",
+      "ratio": 9.49424887422398,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffFile",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffLine",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: diffIndexLine",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @annotation",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @attribute",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @boolean",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @character",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @character.printf",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @character.special",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment.error",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment.hint",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment.info",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment.note",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment.todo",
+      "foreground": "#A2B4E3",
+      "background": "#140F1F",
+      "ratio": 9.10131095572998,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @comment.warning",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @constant",
+      "foreground": "#DDEDA6",
+      "background": "#140F1F",
+      "ratio": 14.97391654457848,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @constant.builtin",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @constant.macro",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @constructor",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @constructor.tsx",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: WarningMsg",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @function.call",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @function.macro",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @function.method",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniIndentscopeSymbol",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindSnippet",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindStruct",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindText",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindTypeParameter",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindUnit",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindValue",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpKindVariable",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpDoc",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpDocBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpSignatureHelp",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpSignatureHelpBorder",
+      "foreground": "#6B79A6",
+      "background": "#0D0A16",
+      "ratio": 4.580425764352735,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpSignatureHelpActiveParameter",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: IblIndent",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: IblScope",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.conditional",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.coroutine",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.debug",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.directive",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.exception",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.function",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.import",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.operator",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineModeReplace",
+      "foreground": "#140F1F",
+      "background": "#E56D87",
+      "ratio": 6.144699089998728,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStatuslineModeVisual",
+      "foreground": "#140F1F",
+      "background": "#BE80D0",
+      "ratio": 6.430065370502617,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniSurround",
+      "foreground": "#140F1F",
+      "background": "#C4906B",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineCurrent",
+      "foreground": "#DFEDE5",
+      "background": "#2A2340",
+      "ratio": 12.302904106698087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTablineVisible",
+      "foreground": "#DFEDE5",
+      "background": "#0D0A16",
+      "ratio": 16.21346303280066,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapBreakpointRejected",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIValue",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIVariable",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: StorageClass",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeDirectoryName",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitConflict",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: NeoTreeGitUnstaged",
+      "foreground": "#C4906B",
+      "background": "#140F1F",
+      "ratio": 6.752871123024425,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIWatchesEmpty",
+      "foreground": "#F08098",
+      "background": "#140F1F",
+      "ratio": 7.376704154817281,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: Visual",
+      "foreground": "#FBFFFC",
+      "background": "#29483F",
+      "ratio": 9.943356702671526,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: VisualNOS",
+      "foreground": "#FBFFFC",
+      "background": "#29483F",
+      "ratio": 9.943356702671526,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: PmenuSel",
+      "foreground": "#FBFFFC",
+      "background": "#29483F",
+      "ratio": 9.943356702671526,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: PmenuMatchSel",
+      "foreground": "#6FD9C4",
+      "background": "#29483F",
+      "ratio": 5.923609477305428,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: BlinkCmpMenuSelection",
+      "foreground": "#FBFFFC",
+      "background": "#29483F",
+      "ratio": 9.943356702671526,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @tag.delimiter.tsx",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIType",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapUIThread",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FidgetTitle",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: FidgetTask",
+      "foreground": "#9C96B2",
+      "background": "#140F1F",
+      "ratio": 6.636782866766061,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: DapStopped",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniTestPass",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.environment.name",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.environment",
+      "foreground": "#3FA894",
+      "background": "#140F1F",
+      "ratio": 6.476687397720204,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @label",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.storage",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.return",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @keyword.repeat",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @operator",
+      "foreground": "#DFEDE5",
+      "background": "#140F1F",
+      "ratio": 15.54998023381289,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: MiniStarterHeader",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading.3.markdown",
+      "foreground": "#C5D98A",
+      "background": "#140F1F",
+      "ratio": 12.225325761929087,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading.4.markdown",
+      "foreground": "#59C98D",
+      "background": "#140F1F",
+      "ratio": 9.092414147586354,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading.5.markdown",
+      "foreground": "#8194C8",
+      "background": "#140F1F",
+      "ratio": 6.265019250004369,
+      "minimum": 4.5
+    },
+    {
+      "role": "Neovim: @markup.heading.6.markdown",
+      "foreground": "#D08FE0",
+      "background": "#140F1F",
+      "ratio": 7.771392284571127,
+      "minimum": 4.5
+    }
+  ],
+  "summary": {
+    "pairs": 852,
+    "text_pairs": 820,
+    "minimum_text_ratio": 4.580425764352735,
+    "failures": 0
+  },
+  "failures": []
+}

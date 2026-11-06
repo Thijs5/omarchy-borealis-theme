@@ -1,0 +1,1 @@
+Star positions and visual magnitudes are factual data extracted from the Bright Star Catalogue, 5th Revised Edition (Hoffleit & Warren), J2000. Source: NOIRLab/KPNO BSC5 mirror, https://www-kpno.kpno.noirlab.edu/Info/Caches/Catalogs/BSC5/catalog5.html . Only a northern bright-star subset is included. No chart artwork or catalogue commentary is bundled.

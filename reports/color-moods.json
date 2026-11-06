@@ -1,0 +1,24 @@
+{
+  "unchanged_files": [
+    "colors.toml",
+    "neovim.lua",
+    "obsidian.css",
+    "vscode-theme.json",
+    "shell.controls.toml",
+    "shell.lock.toml",
+    "tools/nightsky.py",
+    "assets/northern-stars.json",
+    "assets/omarchy-mask.png"
+  ],
+  "terrain_and_sky_geometry_unchanged": true,
+  "logo_mask_and_solid_background_passed_frames": 960,
+  "logo_style": "continuous pleated light with overlapping horizontal altitude colour regions",
+  "logo_color_source": "https://science.nasa.gov/sun/auroras/",
+  "moods": [
+    "emerald / pale mint",
+    "rose-violet / cool teal",
+    "mint-teal",
+    "violet / restrained emerald",
+    "red / green-mint / teal-blue / violet-pink"
+  ]
+}

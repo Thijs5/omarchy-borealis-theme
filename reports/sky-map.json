@@ -1,0 +1,513 @@
+{
+  "catalog": {
+    "name": "Bright Star Catalogue 5",
+    "epoch": "J2000",
+    "url": "https://www-kpno.kpno.noirlab.edu/Info/Caches/Catalogs/BSC5/catalog5.html"
+  },
+  "projection": "gnomonic, east-left/north-up before camera roll",
+  "framing": "independently composed fields, not a dated geographic sky simulation",
+  "scenes": [
+    {
+      "name": "Cassiopeia",
+      "stars": [
+        {
+          "hr": 21,
+          "x": 255,
+          "y": 27,
+          "magnitude": 2.27
+        },
+        {
+          "hr": 168,
+          "x": 245,
+          "y": 44,
+          "magnitude": 2.23
+        },
+        {
+          "hr": 264,
+          "x": 231,
+          "y": 32,
+          "magnitude": 2.47
+        },
+        {
+          "hr": 403,
+          "x": 217,
+          "y": 38,
+          "magnitude": 2.68
+        },
+        {
+          "hr": 542,
+          "x": 201,
+          "y": 27,
+          "magnitude": 3.38
+        }
+      ],
+      "lines": [
+        [
+          [
+            255,
+            27
+          ],
+          [
+            245,
+            44
+          ]
+        ],
+        [
+          [
+            245,
+            44
+          ],
+          [
+            231,
+            32
+          ]
+        ],
+        [
+          [
+            231,
+            32
+          ],
+          [
+            217,
+            38
+          ]
+        ],
+        [
+          [
+            217,
+            38
+          ],
+          [
+            201,
+            27
+          ]
+        ]
+      ],
+      "view": {
+        "ra_center": 15,
+        "dec_center": 60,
+        "cx": 230,
+        "cy": 35,
+        "focal": 230,
+        "roll": -0.35
+      },
+      "meteor": {
+        "start": 18.0,
+        "duration": 0.75,
+        "from": [
+          44,
+          18
+        ],
+        "to": [
+          83,
+          47
+        ]
+      }
+    },
+    {
+      "name": "Big Dipper",
+      "stars": [
+        {
+          "hr": 5191,
+          "x": 172,
+          "y": 51,
+          "magnitude": 1.86
+        },
+        {
+          "hr": 5054,
+          "x": 192,
+          "y": 35,
+          "magnitude": 2.27
+        },
+        {
+          "hr": 4905,
+          "x": 208,
+          "y": 34,
+          "magnitude": 1.77
+        },
+        {
+          "hr": 4660,
+          "x": 229,
+          "y": 31,
+          "magnitude": 3.31
+        },
+        {
+          "hr": 4554,
+          "x": 241,
+          "y": 43,
+          "magnitude": 2.44
+        },
+        {
+          "hr": 4295,
+          "x": 267,
+          "y": 29,
+          "magnitude": 2.37
+        },
+        {
+          "hr": 4301,
+          "x": 261,
+          "y": 9,
+          "magnitude": 1.79
+        }
+      ],
+      "lines": [
+        [
+          [
+            172,
+            51
+          ],
+          [
+            192,
+            35
+          ]
+        ],
+        [
+          [
+            192,
+            35
+          ],
+          [
+            208,
+            34
+          ]
+        ],
+        [
+          [
+            208,
+            34
+          ],
+          [
+            229,
+            31
+          ]
+        ],
+        [
+          [
+            229,
+            31
+          ],
+          [
+            241,
+            43
+          ]
+        ],
+        [
+          [
+            241,
+            43
+          ],
+          [
+            267,
+            29
+          ]
+        ],
+        [
+          [
+            267,
+            29
+          ],
+          [
+            261,
+            9
+          ]
+        ],
+        [
+          [
+            261,
+            9
+          ],
+          [
+            229,
+            31
+          ]
+        ]
+      ],
+      "view": {
+        "ra_center": 187,
+        "dec_center": 56,
+        "cx": 222,
+        "cy": 35,
+        "focal": 215,
+        "roll": 0.05
+      },
+      "meteor": {
+        "start": 24.0,
+        "duration": 0.75,
+        "from": [
+          55,
+          11
+        ],
+        "to": [
+          95,
+          39
+        ]
+      }
+    },
+    {
+      "name": "Cassiopeia",
+      "stars": [
+        {
+          "hr": 21,
+          "x": 108,
+          "y": 30,
+          "magnitude": 2.27
+        },
+        {
+          "hr": 168,
+          "x": 95,
+          "y": 45,
+          "magnitude": 2.23
+        },
+        {
+          "hr": 264,
+          "x": 83,
+          "y": 31,
+          "magnitude": 2.47
+        },
+        {
+          "hr": 403,
+          "x": 69,
+          "y": 35,
+          "magnitude": 2.68
+        },
+        {
+          "hr": 542,
+          "x": 55,
+          "y": 22,
+          "magnitude": 3.38
+        }
+      ],
+      "lines": [
+        [
+          [
+            108,
+            30
+          ],
+          [
+            95,
+            45
+          ]
+        ],
+        [
+          [
+            95,
+            45
+          ],
+          [
+            83,
+            31
+          ]
+        ],
+        [
+          [
+            83,
+            31
+          ],
+          [
+            69,
+            35
+          ]
+        ],
+        [
+          [
+            69,
+            35
+          ],
+          [
+            55,
+            22
+          ]
+        ]
+      ],
+      "view": {
+        "ra_center": 15,
+        "dec_center": 60,
+        "cx": 82,
+        "cy": 34,
+        "focal": 230,
+        "roll": -0.2
+      },
+      "meteor": {
+        "start": 14.0,
+        "duration": 0.75,
+        "from": [
+          246,
+          16
+        ],
+        "to": [
+          286,
+          40
+        ]
+      }
+    },
+    {
+      "name": "Little Dipper",
+      "stars": [
+        {
+          "hr": 424,
+          "x": 216,
+          "y": 14,
+          "magnitude": 2.02
+        },
+        {
+          "hr": 6789,
+          "x": 214,
+          "y": 29,
+          "magnitude": 4.36
+        },
+        {
+          "hr": 6322,
+          "x": 215,
+          "y": 47,
+          "magnitude": 4.23
+        },
+        {
+          "hr": 5903,
+          "x": 226,
+          "y": 63,
+          "magnitude": 4.32
+        },
+        {
+          "hr": 5563,
+          "x": 242,
+          "y": 73,
+          "magnitude": 2.08
+        },
+        {
+          "hr": 5735,
+          "x": 237,
+          "y": 84,
+          "magnitude": 3.05
+        },
+        {
+          "hr": 6116,
+          "x": 220,
+          "y": 72,
+          "magnitude": 4.95
+        }
+      ],
+      "lines": [
+        [
+          [
+            216,
+            14
+          ],
+          [
+            214,
+            29
+          ]
+        ],
+        [
+          [
+            214,
+            29
+          ],
+          [
+            215,
+            47
+          ]
+        ],
+        [
+          [
+            215,
+            47
+          ],
+          [
+            226,
+            63
+          ]
+        ],
+        [
+          [
+            226,
+            63
+          ],
+          [
+            242,
+            73
+          ]
+        ],
+        [
+          [
+            242,
+            73
+          ],
+          [
+            237,
+            84
+          ]
+        ],
+        [
+          [
+            237,
+            84
+          ],
+          [
+            220,
+            72
+          ]
+        ],
+        [
+          [
+            220,
+            72
+          ],
+          [
+            226,
+            63
+          ]
+        ]
+      ],
+      "view": {
+        "ra_center": 240,
+        "dec_center": 80,
+        "cx": 222,
+        "cy": 55,
+        "focal": 220,
+        "roll": -0.12
+      },
+      "meteor": {
+        "start": 30.0,
+        "duration": 0.75,
+        "from": [
+          44,
+          17
+        ],
+        "to": [
+          89,
+          41
+        ]
+      }
+    }
+  ],
+  "validation": [
+    {
+      "scene": "01-vestrahorn",
+      "constellation": "Cassiopeia",
+      "meteor_events": 1,
+      "visible_frames": 17,
+      "meteor_start_seconds": 18.0
+    },
+    {
+      "scene": "02-jokulsarlon",
+      "constellation": "Big Dipper",
+      "meteor_events": 1,
+      "visible_frames": 17,
+      "meteor_start_seconds": 24.0
+    },
+    {
+      "scene": "03-kirkjufell",
+      "constellation": "Cassiopeia",
+      "meteor_events": 1,
+      "visible_frames": 17,
+      "meteor_start_seconds": 14.0
+    },
+    {
+      "scene": "04-svartifoss",
+      "constellation": "Little Dipper",
+      "meteor_events": 1,
+      "visible_frames": 17,
+      "meteor_start_seconds": 30.0
+    }
+  ]
+}

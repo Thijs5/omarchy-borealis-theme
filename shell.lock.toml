@@ -1,0 +1,18 @@
+[lock]
+# Lock screen password input. background/background-alpha control the
+# centered input field card; border/border-active/border-error cycle
+# through idle, typing/authenticating, and wrong-password states.
+# border-alpha applies to all three border states (they are mutually
+# exclusive in time).
+background       = "#140F1F"
+background-alpha = 1.0
+text             = "#DFEDE5"
+placeholder      = "#9aa2a2"
+text-error       = "#E56D87"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#E56D87"
+border-alpha     = 1.0
+# selection is the text-selection tint inside the input field.
+selection        = "#6FD9C4"
+selection-alpha  = 0.45
