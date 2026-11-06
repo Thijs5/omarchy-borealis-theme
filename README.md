@@ -26,6 +26,11 @@ image-space blur filters, antialiasing or camera motion are used.
 These are stylized interpretations of the landmarks, with independently arranged
 night scenes. The fifth background uses the original Omarchy wordmark geometry.
 
+![All five Borealis backgrounds](previews/contact-sheet.png)
+
+The lead image and stills use selected frames from the animations, with the
+same lighting and palette. Frame times are recorded in [reports/stills.json](reports/stills.json).
+
 ## Readability
 
 The palette keeps deep violet surfaces, teal accents and pale text. Muted text,
@@ -166,7 +171,13 @@ python -m venv /tmp/borealis-render
 /tmp/borealis-render/bin/python tools/render.py
 ```
 
-Use `--posters-only` for stills or `--scene 4` for one background (1–5).
+Use `--posters-only` for the selected stills or `--scene 4` for one background (1–5).
+Regenerate all five stills, the repository lead image and the contact sheet with:
+
+```bash
+python tools/render_previews.py
+```
+
 `tools/aurora.py` defines the moving light veils and additive emission;
 `tools/render.py` draws the landmarks, reflections and wordmark, then encodes
 the videos. Both files are needed to regenerate the backgrounds.

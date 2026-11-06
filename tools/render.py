@@ -14,6 +14,9 @@ from nightsky import draw_stars, draw_meteor
 ROOT=Path(__file__).resolve().parents[1]
 W,H,FPS,SECONDS=320,200,24,40
 NAMES=['01-vestrahorn','02-jokulsarlon','03-kirkjufell','04-svartifoss','05-omarchy']
+# Selected presentation frames from the actual 24 fps, 40-second loops.
+# Preserve the approved Vestrahorn still; other scenes use their own light peak.
+POSTER_FRAMES=[714,558,756,366,558]
 Y,X=np.mgrid[:H,:W].astype(np.float32)
 
 
@@ -303,7 +306,8 @@ def frame(kind,phase):
 def render(kind,posters_only=False):
     name=NAMES[kind]
     for folder in ['backgrounds','previews']:(ROOT/folder).mkdir(exist_ok=True)
-    poster=cv2.resize(frame(kind,0),(2560,1600),interpolation=cv2.INTER_NEAREST)
+    phase=2*np.pi*POSTER_FRAMES[kind]/(FPS*SECONDS)
+    poster=cv2.resize(frame(kind,phase),(2560,1600),interpolation=cv2.INTER_NEAREST)
     cv2.imwrite(str(ROOT/f'previews/{name}.png'),cv2.cvtColor(poster,cv2.COLOR_RGB2BGR))
     if posters_only:return
     command=['ffmpeg','-v','warning','-y','-f','rawvideo','-pix_fmt','rgb24',

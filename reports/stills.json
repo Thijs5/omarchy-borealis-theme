@@ -1,0 +1,42 @@
+{
+  "method": "Selected source frames; 2560x1600 nearest-neighbour 8x; original lighting and palette",
+  "hero": "preview.png",
+  "contact_sheet": "previews/contact-sheet.png",
+  "stills": [
+    {
+      "scene": "01-vestrahorn",
+      "frame": 714,
+      "seconds": 29.75,
+      "source": "backgrounds/01-vestrahorn.mp4",
+      "still": "previews/01-vestrahorn.png"
+    },
+    {
+      "scene": "02-jokulsarlon",
+      "frame": 558,
+      "seconds": 23.25,
+      "source": "backgrounds/02-jokulsarlon.mp4",
+      "still": "previews/02-jokulsarlon.png"
+    },
+    {
+      "scene": "03-kirkjufell",
+      "frame": 756,
+      "seconds": 31.5,
+      "source": "backgrounds/03-kirkjufell.mp4",
+      "still": "previews/03-kirkjufell.png"
+    },
+    {
+      "scene": "04-svartifoss",
+      "frame": 366,
+      "seconds": 15.25,
+      "source": "backgrounds/04-svartifoss.mp4",
+      "still": "previews/04-svartifoss.png"
+    },
+    {
+      "scene": "05-omarchy",
+      "frame": 558,
+      "seconds": 23.25,
+      "source": "backgrounds/05-omarchy.mp4",
+      "still": "previews/05-omarchy.png"
+    }
+  ]
+}
