@@ -17,7 +17,7 @@ image-space blur filters, antialiasing or camera motion are used.
 
 | File | Identifying features |
 | --- | --- |
-| `01-vestrahorn.mp4` | Jagged horns above wet black sand, dunes and grass tufts; a faint green veil with long rays |
+| `01-vestrahorn.mp4` | Jagged horns above wet black sand, dunes and grass tufts; an emerald veil with luminous long rays |
 | `02-jokulsarlon.mp4` | Blue faceted icebergs, a dark ash seam and a low glacial horizon; rose-violet light blending into faint cool teal |
 | `03-kirkjufell.mp4` | A broad, sloping roof, spreading foot and subdued horizontal strata; a quieter distant mint-teal veil |
 | `04-svartifoss.mp4` | A narrow white fall framed by hanging basalt prisms, recessed columns and broken scree; violet light with restrained emerald |
@@ -117,6 +117,12 @@ The auroras use tall hanging veils with long, nearly vertical rays. Broad
 pleats sway slowly and their hems fade gradually into the sky. Internal
 contrast and narrow highlights are subdued. Rose-violet and teal emission share
 the same strands over the lagoon and blend additively where they overlap.
+
+The landscape videos use stronger emitted light throughout their full loops,
+with brighter folds and reflections against the dark sky. Their light output
+is lifted by 55–65% from the earlier restrained version. The logo's veil also
+has a modest luminosity lift, preserving its dark gaps and colour transitions.
+Movement speed, veil geometry, star positions and the UI palette are unchanged.
 
 Aurora light is evaluated continuously on the 320 × 200 grid and added to the
 night sky. Hard palette thresholds, abrupt visibility masks and color-winner

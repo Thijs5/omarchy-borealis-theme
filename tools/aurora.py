@@ -18,6 +18,10 @@ ROSE=(np.array([146,75,139]),np.array([78,83,84]))
 MINT=(np.array([57,149,124]),np.array([85,90,87]))
 VIOLET=(np.array([119,81,161]),np.array([89,86,90]))
 
+# Raise the emitted light itself, leaving the dark sky and the accepted veil
+# geometry untouched. The distant Kirkjufell veil needs a slightly larger lift.
+EXPOSURE=[1.55,1.60,1.65,1.55]
+
 
 def spline(points,u):
     """A softly tensioned Catmull-Rom path along the hanging hem."""
@@ -136,4 +140,4 @@ def aurora(kind,phase):
     for field,(color,highlight) in layers:
         light=-np.expm1(-np.maximum(field,0)*.85)
         emission+=light[...,None]*color+light[...,None]**4*highlight
-    return emission,np.ones((H,W),bool)
+    return emission*EXPOSURE[kind],np.ones((H,W),bool)

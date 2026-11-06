@@ -14,6 +14,13 @@
   "logo_mask_and_solid_background_passed_frames": 960,
   "logo_style": "continuous pleated light with overlapping horizontal altitude colour regions",
   "logo_color_source": "https://science.nasa.gov/sun/auroras/",
+  "emitted_light_gain": [
+    1.55,
+    1.6,
+    1.65,
+    1.55
+  ],
+  "logo_density_response": 1.9,
   "moods": [
     "emerald / pale mint",
     "rose-violet / cool teal",

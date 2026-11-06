@@ -79,3 +79,18 @@ Overlapping red, green, teal, blue, violet and pink regions flow horizontally
 without discrete band edges. Mint highlights emerge only in concentrated
 strands. All light is still evaluated on the fixed logical pixel grid: no
 image-space blur or antialiasing is applied, and nothing escapes the letters.
+
+## Stronger animation lighting
+
+The actual video light fields now carry the stronger presentation treatment,
+throughout each 40-second loop. Emitted landscape light is multiplied by 1.55
+at Vestrahorn, 1.60 at the lagoon, 1.65 at Kirkjufell and 1.55 at Svartifoss.
+The dark sky and terrain retain their original values; reflections naturally
+inherit the brighter moving light. The logo's continuous density response is
+raised from 1.6 to 1.9, gently lifting the existing veil inside the letters.
+Its strongest concentrations use a smooth, hue-preserving highlight shoulder
+so green does not clip into flat bright patches.
+
+No new boundaries, opaque bands, sharpened rays, faster motion or camera moves
+are introduced. Star positions, meteor timing and the UI contrast fixes remain
+unchanged. Every preview is regenerated from these same revised animations.

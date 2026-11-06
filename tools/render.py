@@ -253,7 +253,7 @@ def logo_frame(phase):
     density=sheet(hem,phase,[.5,.72,.54,.92,.62,.70,.95,.56,.82,.5],
                   [62,65,57,66,60,64,59,66,60,63],
                   strength=1.1,seed=11,motion=.65,tilt=.008)
-    light=-np.expm1(-density*1.6)
+    light=-np.expm1(-density*1.9)
     # Overlapping altitude regions retain horizontal colour flow while their
     # hanging strands, dark gaps and pale concentrations move together.
     height=Y-72-2.5*np.sin(X/45-phase)-1.1*np.sin(X/23+phase)
@@ -273,6 +273,12 @@ def logo_frame(phase):
     fill=rgb('140F1F')+color*(.08+1.12*light[...,None])
     pale=np.exp(-.5*((height-29)/13)**2)*light**4
     fill+=pale[...,None]*np.array([62,49,63])
+    # A smooth shared-channel shoulder preserves hue and strand detail in
+    # the strongest concentrations instead of clipping green to a flat fill.
+    peak=fill.max(axis=2)
+    shoulder=210+35*(-np.expm1(-np.maximum(peak-210,0)/35))
+    gain=np.where(peak>210,shoulder/np.maximum(peak,1),1)
+    fill*=gain[...,None]
     c=np.full((H,W,3),rgb('140F1F'),np.uint8)
     c[LOGO]=np.clip(fill[LOGO],0,255).astype(np.uint8)
     return c
